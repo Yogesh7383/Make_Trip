@@ -1,0 +1,244 @@
+  /*
+  To change this license header, choose License Headers in Project Properties.
+  To change this template file, choose Tools | Templates
+  and open the template in the editor.
+  */
+  /* 
+      Created on : May 1, 2024, 11:40:56 AM
+      Author     : Admin
+  */
+
+  /* Base styles */
+  body, html {
+      height: 100%;
+      margin: 0;
+      background-color: rgb(206, 206, 206);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    nav{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color:rgba(255, 166, 0, 0.979);
+                color: rgba(53, 51, 51, 0.177);
+                height: 50px;
+                margin-left: 0px;
+
+                padding-top: 20px;
+
+                position: fixed;
+                top: 0%;
+                width: 100%;
+                z-index: 1;
+            }
+     
+    .h1{
+                color: rgb(4, 4, 6);
+                font-size: 30px;
+                font-style:inherit;
+                position: relative;
+                right: 100%;
+                top: -20%;
+                width: 85%;
+                text-align: center;
+
+            } 
+    .logo{
+      /* align-items: center;   */
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      position:absolute;
+      left: 5px;
+    
+    }
+    #bar{
+      display: none;
+    
+    }
+    nav button{
+      width: 80px;
+      height: 30px;
+      font-weight: bold;
+      background-color: white;
+      color: aliceblue;
+      /* padding: 20px 20px; */
+      border: 2px solid black;
+      border-radius: 5px;
+      position: absolute;
+      height:50px;
+      width:90px;
+      right: 30px;
+      font-size: 18px;
+      top:10px;
+      cursor: pointer;
+      transition: 0.5s;
+      
+      }
+      button a{
+          text-decoration: none;
+          color: white;
+          
+      }
+      nav button:hover{
+      
+          background-color: whitesmoke;
+          color: black;
+          /* width: 100px; */
+          zoom: 1;
+    
+          /* border-radius: 0%; */
+      }
+    
+      #menu-icon {
+    display: block;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    }
+    /* menu icon*/
+    #menu-icon .bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;  
+    }
+    
+    #menu-icon .bar:nth-child(1) {
+    top: 0;
+    }
+    
+    #menu-icon .bar:nth-child(2) {
+    top: 8px;
+    }
+    
+    #menu-icon .bar:nth-child(3) {
+    top: 16px;
+    }
+    
+    .container {
+      display: flex;
+      min-height: 100%;
+      background-color: white;
+    }
+    
+    /* Main content styles */
+    .main-content {
+      flex-grow: 1;
+      background-color: #ffffff;
+      padding: 100px;
+        position: relative;
+          text-align: center;
+          color: black;
+    }
+    .main-content h1 {
+      color: #ffffff;
+        position: relative;
+          text-align: center;
+          color: black;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.979);
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgb(255, 255, 255);
+    
+    }
+     .my {
+
+                font-family: 'Nunito', sans-serif;
+                height: 200px;
+                width: 1000px;
+                border: 2px solid black; 
+                margin-left: 100px; 
+                position: fixed;
+                margin-top: 50px;
+                margin-left: 225px;
+                left: 150px;
+                top: 50px; 
+                background-color: white;
+                
+            }
+            .card {
+                width: 900px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                padding: 5px;
+                margin: 20px;
+                box-shadow: 0 4px 8px rgba(0,5,19,0.1);
+            }
+            .navp{
+
+                /*    height: 600px;
+                    width: 800px;*/
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: black;
+                /*padding-top:50px;*/
+                /*    height: 50px;
+                    margin-left: 180px;*/
+
+
+                /*    position: fixed;
+                    top: 0%;
+                    z-index: 1; */
+            }
+            ul {
+
+                display: flex;
+
+                align-items: center; 
+
+            }
+
+            ul li {
+                display: flex;
+                list-style: none;
+                align-items: center;
+                margin-left: 100px;
+                justify-content: center;
+            }
+
+            ul li a {
+
+                padding-top: 17px; 
+                align-items: left;
+                text-decoration: none;
+                margin-inline: 20px;
+                color: black;
+                font-size: 25px;
+            }
+
+            ul li a:hover {
+
+                color: orange;
+            }
+            .link {
+                display: block;
+                margin-bottom: 10px;
+                text-decoration: none;
+                color: #333;
+            }
+            .link:hover {
+                color: #007bff;
+            }
+    
+    /* Responsive design */
+    @media (max-width: 500px) {
+      .sidebar {
+        width: 80%;
+        height: auto;
+      }
+      .main-content {
+        flex-grow: 0;
+          position: relative;
+          text-align: center;
+          color: black;
+          
+      }
+    }

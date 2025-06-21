@@ -1,0 +1,60 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.profile {
+      
+    font-family: 'Nunito', sans-serif;
+    height: 550px;
+    width: 950px;
+    align-item:center;
+    justify-content:center;
+    border: 2px solid black; 
+    margin-left: 100px; 
+    position: absolute;
+    left: 150px;
+    /*right: 20px;*/
+    top: 100px;
+}
+
+/*.navp{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
+}*/
+
+.card ul {
+
+    display: flex;
+
+    align-items: center; 
+
+}
+
+.card ul li {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+ .card ul li a {
+
+    padding-top: 17px; 
+    align-items: center;
+    text-decoration: none;
+    margin-inline: 20px;
+    color: black;
+    font-size: 25px;
+}
+
+ul li a:hover {
+
+    color: orange;
+}
